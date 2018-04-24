@@ -29,7 +29,7 @@
 #ifdef DEBUG_CODE39
 # define DEBUG_LEVEL (DEBUG_CODE39)
 #endif
-#include "debug.h"
+#include <debug.h>
 #include "decoder.h"
 
 #define NUM_CHARS (0x2c)

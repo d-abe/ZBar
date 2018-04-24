@@ -27,7 +27,7 @@
 #ifdef DEBUG_DATABAR
 # define DEBUG_LEVEL (DEBUG_DATABAR)
 #endif
-#include "debug.h"
+#include <debug.h>
 #include "decoder.h"
 
 #define GS ('\035')

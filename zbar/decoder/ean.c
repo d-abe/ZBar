@@ -27,7 +27,7 @@
 #ifdef DEBUG_EAN
 # define DEBUG_LEVEL (DEBUG_EAN)
 #endif
-#include "debug.h"
+#include <debug.h>
 #include "decoder.h"
 
 /* partial decode symbol location */

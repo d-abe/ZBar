@@ -29,7 +29,7 @@
 #ifdef DEBUG_QR_FINDER
 # define DEBUG_LEVEL (DEBUG_QR_FINDER)
 #endif
-#include "debug.h"
+#include <debug.h>
 #include "decoder.h"
 
 /* at this point lengths are all decode unit offsets from the decode edge
